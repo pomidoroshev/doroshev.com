@@ -1,0 +1,5 @@
+<div class="categories">
+    {% for category in post.categories %}
+        <code><a href="/{{ category | slugify }}/">{{ category }}</a></code>
+    {% endfor %}
+</div>

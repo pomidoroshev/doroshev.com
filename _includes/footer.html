@@ -1,16 +1,3 @@
 <footer>
-  <nav>
-    <ul>
-      <li>
-      {%- if site.author -%}
-        © {{ 'now' | date: "%Y" }} {{ site.author | escape }}
-      {%- else -%}
-        {{ site.title | escape }}
-      {%- endif -%}
-      </li>
-      {%- if site.email -%}
-      <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-      {%- endif -%}
-    </ul>
-  </nav>
+  © {{ 'now' | date: "%Y" }} <a href="mailto:{{ site.email }}">{{ site.author }}</a>
 </footer>
