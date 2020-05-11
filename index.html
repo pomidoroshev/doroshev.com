@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Дима Дорошев | Дима пишет блог, блог пишет Дима.</title>
+<meta name="generator" content="Jekyll v4.0.1" />
+<meta property="og:title" content="Дима Дорошев" />
+<meta property="og:locale" content="ru" />
+<meta name="description" content="Дима пишет блог, блог пишет Дима." />
+<meta property="og:description" content="Дима пишет блог, блог пишет Дима." />
+<link rel="canonical" href="https://doroshev.com/" />
+<meta property="og:url" content="https://doroshev.com/" />
+<meta property="og:site_name" content="Дима Дорошев" />
+<script type="application/ld+json">
+{"headline":"Дима Дорошев","description":"Дима пишет блог, блог пишет Дима.","url":"https://doroshev.com/","@type":"WebSite","name":"Дима Дорошев","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<!-- Begin Jekyll Favicon tag v0.2.8 -->
+<!-- Classic -->
+<link rel="shortcut icon" href="/favicon.ico">
+<link rel="icon" sizes="48x48 32x32 16x16" href="/favicon.ico">
+  <link rel="icon" sizes="16x16" type="image/png" href="/assets/favicon/favicon-16x16.png">
+  <link rel="icon" sizes="32x32" type="image/png" href="/assets/favicon/favicon-32x32.png">
+  <link rel="icon" sizes="64x64" type="image/png" href="/assets/favicon/favicon-64x64.png">
+  <link rel="icon" sizes="144x144" type="image/png" href="/assets/favicon/favicon-144x144.png">
+<!-- Safari -->
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicon/favicon-57x57.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/favicon/favicon-76x76.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/favicon/favicon-120x120.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/favicon/favicon-152x152.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="/assets/favicon/favicon-167x167.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/favicon-180x180.png">
+<!-- Chrome -->
+  <link rel="icon" sizes="192x192" href="/assets/favicon/favicon-192x192.png">
+  <link rel="icon" sizes="96x96" href="/assets/favicon/favicon-96x96.png">
+  <link rel="icon" sizes="48x48" href="/assets/favicon/favicon-48x48.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<!-- IE -->
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/assets/favicon/favicon-144x144.png">
+<meta name='msapplication-config' content="/browserconfig.xml">
+<!-- End Jekyll Favicon tag -->
+  <link rel="stylesheet" href="/assets/kacit.min.css">
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="stylesheet" href="/assets/syntax.css"><link type="application/atom+xml" rel="alternate" href="https://doroshev.com/feed.xml" title="Дима Дорошев" /></head>
+<body>
+    <section><header>
+  
+    <div><img src="/assets/img/photo.jpg" alt="" class="photo"><h1 class="h1">Дима Дорошев</h1></div>
+  
+</header>
+
+
+<main class="page-content" aria-label="Content">
+        <div class="home"><article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+  
+    <h2 itemprop="name headline"><a href="/%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/2020/05/11/b-i-u.html"><b>Ж</b> <i>К</i> <u>П</u></a></h1>
+  
+  <time datetime="2020-05-11T16:32:10+03:00" itemprop="datePublished">2020-05-11</time>
+  <div itemprop="articleBody">
+    <p>В любом текстовом процессоре (Microsoft Word, Google Docs, LibreOffice) кнопки "полужирный", "курсив" и "подчеркнутый" находятся рядом:</p>
+<div>
+    <button><b>Ж</b></button><button><i>К</i></button><button><u>П</u></button>
+</div>
+<p>Десятилетиями в голове устаканивался паттерн о том, что это свойства одного порядка. Хочешь сделать полужирный курсив, нажимаешь две кнопки рядом:</p>
+<div>
+    <button pressed=""><b>Ж</b></button><button pressed=""><i>К</i></button><button><u>П</u></button>
+</div>
+<p>Хочешь жирный и подчеркнутый:</p>
+<div>
+    <button pressed=""><b>Ж</b></button><button><i>К</i></button><button pressed=""><u>П</u></button>
+</div>
+<p>Про подчеркнутый курсив не буду - это для особенных людей.</p>
+
+<p>В <abbr>HTML</abbr>-тегах с этим тоже просто. Есть три тега: <code class="highlighter-rouge">b</code>, <code class="highlighter-rouge">i</code> и <code class="highlighter-rouge">u</code>. Можно вкладывать их друг в друга и получать желаемую комбинацию:</p>
+
+<ul>
+  <li><span class="bold italic"><code class="highlighter-rouge">&lt;b&gt;&lt;i&gt;полужирный курсив&lt;/b&gt;&lt;/i&gt;</code></span></li>
+  <li><span class="bold underline"><code class="highlighter-rouge">&lt;b&gt;&lt;u&gt;полужирный подчеркнутый&lt;/b&gt;&lt;/u&gt;</code></span></li>
+  <li><span class="italic underline"><code class="highlighter-rouge">&lt;i&gt;&lt;u&gt;пожалуйста, не надо&lt;/u&gt;&lt;/i&gt;</code></span></li>
+</ul>
+
+<p>А в <abbr>CSS</abbr> это совершенно разные свойства:</p>
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span>
+<span class="nl">font-weight</span><span class="p">:</span> <span class="nb">bold</span><span class="p">;</span>  <span class="c">/* полужирный */</span>
+<span class="nl">font-style</span><span class="p">:</span> <span class="nb">italic</span><span class="p">;</span>  <span class="c">/* курсив */</span>
+<span class="nl">text-decoration</span><span class="p">:</span> <span class="nb">underline</span><span class="p">;</span>  <span class="c">/* подчеркнутый */</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>Про <code class="highlighter-rouge">font-weight</code> еще более-менее понятно, но правила применения двух остальных свойств я уже 13 лет не могу запомнить. Если нужно сделать подчеркнутый текст, а подсказок взять негде, я могу просто перебрать все варианты, пока не заработает:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>text-style: underline;
+font-style: underline;
+font-decoration: underline;
+text-underline: true;
+</code></pre></div></div>
+
+<p>Очень бесит. Хочется либо так:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>font-style: bold;
+font-style: bold, italic;
+font-style: italic, underline;
+</code></pre></div></div>
+
+<p>Либо так:</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>font-bold: true;
+font-underline: true;
+font-italic: true;
+</code></pre></div></div>
+
+<p>Большего мне и не надо.</p>
+
+
+  </div></article>
+<mark class="rss-subscribe"><a href="/feed.xml"><abbr>RSS</abbr></a></mark>
+</div>
+
+      </main>
+
+      
+    </section>
+  </body>
+
+</html>
