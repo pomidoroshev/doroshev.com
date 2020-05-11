@@ -1,0 +1,15 @@
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+  {% if page.url == '/' %}
+    <h2 itemprop="name headline"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h1>
+  {% else %}
+    <h1 itemprop="name headline">{{ post.title }}</h1>
+  {% endif %}
+  <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: '%Y-%m-%d' }}</time>
+  <div itemprop="articleBody">
+    {{ post.content }}
+  </div>
+
+  {%- if site.disqus.shortname -%}
+    {%- include disqus_comments.html -%}
+  {%- endif -%}
+</article>
