@@ -78,17 +78,24 @@
 
 <p>В <abbr>HTML</abbr>-тегах с этим тоже просто. Есть три тега: <code class="highlighter-rouge">b</code>, <code class="highlighter-rouge">i</code> и <code class="highlighter-rouge">u</code>. Можно вкладывать их друг в друга и получать желаемую комбинацию:</p>
 
-<ul>
-  <li><span class="bold italic"><code class="highlighter-rouge">&lt;b&gt;&lt;i&gt;полужирный курсив&lt;/b&gt;&lt;/i&gt;</code></span></li>
-  <li><span class="bold underline"><code class="highlighter-rouge">&lt;b&gt;&lt;u&gt;полужирный подчеркнутый&lt;/b&gt;&lt;/u&gt;</code></span></li>
-  <li><span class="italic underline"><code class="highlighter-rouge">&lt;i&gt;&lt;u&gt;пожалуйста, не надо&lt;/u&gt;&lt;/i&gt;</code></span></li>
-</ul>
+
+<pre>
+<b><i>&lt;b&gt;&lt;i&gt;полужирный курсив&lt;/i&gt;&lt;/b&gt;</b></i>
+<b><u>&lt;b&gt;&lt;u&gt;полужирный подчеркнутый&lt;/u&gt;&lt;/b&gt;</b></u>
+<i><u>&lt;i&gt;&lt;u&gt;пожалуйста, не надо&lt;/u&gt;&lt;/i&gt;</u></i>
+</pre>
+
 
 <p>А в <abbr>CSS</abbr> это совершенно разные свойства:</p>
 <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span>
-<span class="nl">font-weight</span><span class="p">:</span> <span class="nb">bold</span><span class="p">;</span>  <span class="c">/* полужирный */</span>
-<span class="nl">font-style</span><span class="p">:</span> <span class="nb">italic</span><span class="p">;</span>  <span class="c">/* курсив */</span>
-<span class="nl">text-decoration</span><span class="p">:</span> <span class="nb">underline</span><span class="p">;</span>  <span class="c">/* подчеркнутый */</span>
+<span class="c">/* полужирный */</span>
+<span class="nl">font-weight</span><span class="p">:</span> <span class="nb">bold</span><span class="p">;</span>
+
+<span class="c">/* курсив */</span>
+<span class="nl">font-style</span><span class="p">:</span> <span class="nb">italic</span><span class="p">;</span>
+
+<span class="c">/* подчеркнутый */</span>
+<span class="nl">text-decoration</span><span class="p">:</span> <span class="nb">underline</span><span class="p">;</span>
 <span class="p">}</span>
 </code></pre></div></div>
 
