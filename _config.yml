@@ -32,10 +32,12 @@ kramdown:
   input: GFM
   smart_quotes: apos,apos,quot,quot
 
+favicon:
+  source: /assets/img/favicon.png
+  path: /assets/favicon
+
 # Build settings
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
+plugins: []
 
 # Exclude from processing.
 # The following items will not be processed, by default.
