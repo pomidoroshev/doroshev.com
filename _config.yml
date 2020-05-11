@@ -28,6 +28,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://doroshev.com"
 github_username:  pomidoroshev
 
+permalink: /:title/
+
 markdown: kramdown
 kramdown:
   input: GFM
