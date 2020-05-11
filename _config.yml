@@ -37,7 +37,8 @@ favicon:
   path: /assets/favicon
 
 # Build settings
-plugins: []
+plugins:
+  - jekyll-favicon
 
 # Exclude from processing.
 # The following items will not be processed, by default.
