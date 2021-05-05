@@ -4,7 +4,7 @@ pub:
 	LC_ALL=C bundle exec jgd
 
 watch:
-	jekyll serve -ol
+	bundle exec jekyll serve -ol
 
 build:
-	jekyll build
+	bundle exec jekyll build
