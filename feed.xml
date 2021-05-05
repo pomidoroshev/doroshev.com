@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ru"><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://doroshev.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://doroshev.com/" rel="alternate" type="text/html" hreflang="ru" /><updated>2021-05-05T14:13:43+03:00</updated><id>https://doroshev.com/feed.xml</id><title type="html">Сайт Димы Дорошева</title><subtitle>Дима пишет блог, блог пишет Дима.</subtitle><author><name>Дима Дорошев</name></author><entry><title type="html">Ж К П</title><link href="https://doroshev.com/dev/b-i-u/" rel="alternate" type="text/html" title="&lt;b&gt;Ж&lt;/b&gt; &lt;i&gt;К&lt;/i&gt; &lt;u&gt;П&lt;/u&gt;" /><published>2020-05-11T16:32:10+03:00</published><updated>2020-05-11T16:32:10+03:00</updated><id>https://doroshev.com/dev/b-i-u</id><content type="html" xml:base="https://doroshev.com/dev/b-i-u/">&lt;p&gt;В любом текстовом процессоре (Microsoft Word, Google Docs, LibreOffice) кнопки &quot;полужирный&quot;, &quot;курсив&quot; и &quot;подчеркнутый&quot; находятся рядом:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ru"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://doroshev.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://doroshev.com/" rel="alternate" type="text/html" hreflang="ru" /><updated>2021-05-05T14:22:09+03:00</updated><id>https://doroshev.com/feed.xml</id><title type="html">Сайт Димы Дорошева</title><subtitle>Дима пишет блог, блог пишет Дима.</subtitle><author><name>Дима Дорошев</name></author><entry><title type="html">Ж К П</title><link href="https://doroshev.com/dev/b-i-u/" rel="alternate" type="text/html" title="Ж К П" /><published>2020-05-11T16:32:10+03:00</published><updated>2020-05-11T16:32:10+03:00</updated><id>https://doroshev.com/dev/b-i-u</id><content type="html" xml:base="https://doroshev.com/dev/b-i-u/">&lt;p&gt;В любом текстовом процессоре (Microsoft Word, Google Docs, LibreOffice) кнопки &quot;полужирный&quot;, &quot;курсив&quot; и &quot;подчеркнутый&quot; находятся рядом:&lt;/p&gt;
 &lt;div&gt;
     &lt;button&gt;&lt;b&gt;Ж&lt;/b&gt;&lt;/button&gt;&lt;button&gt;&lt;i&gt;К&lt;/i&gt;&lt;/button&gt;&lt;button&gt;&lt;u&gt;П&lt;/u&gt;&lt;/button&gt;
 &lt;/div&gt;
@@ -12,7 +12,7 @@
 &lt;/div&gt;
 &lt;p&gt;Про подчеркнутый курсив не буду - это для особенных людей.&lt;/p&gt;
 
-&lt;p&gt;В &lt;abbr&gt;HTML&lt;/abbr&gt;-тегах с этим тоже просто. Есть три тега: &lt;code class=&quot;highlighter-rouge&quot;&gt;b&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;i&lt;/code&gt; и &lt;code class=&quot;highlighter-rouge&quot;&gt;u&lt;/code&gt;. Можно вкладывать их друг в друга и получать желаемую комбинацию:&lt;/p&gt;
+&lt;p&gt;В &lt;abbr&gt;HTML&lt;/abbr&gt;-тегах с этим тоже просто. Есть три тега: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;b&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;i&lt;/code&gt; и &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;u&lt;/code&gt;. Можно вкладывать их друг в друга и получать желаемую комбинацию:&lt;/p&gt;
 
 
 &lt;pre&gt;
@@ -35,9 +35,9 @@
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Про &lt;code class=&quot;highlighter-rouge&quot;&gt;font-weight&lt;/code&gt; еще более-менее понятно, но правила применения двух остальных свойств я уже 13 лет не могу запомнить. Если нужно сделать подчеркнутый текст, а подсказок взять негде, я могу просто перебрать все варианты, пока не заработает:&lt;/p&gt;
+&lt;p&gt;Про &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;font-weight&lt;/code&gt; еще более-менее понятно, но правила применения двух остальных свойств я уже 13 лет не могу запомнить. Если нужно сделать подчеркнутый текст, а подсказок взять негде, я могу просто перебрать все варианты, пока не заработает:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;text-style: underline;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;text-style: underline;
 font-style: underline;
 font-decoration: underline;
 text-underline: true;
@@ -45,15 +45,15 @@ text-underline: true;
 
 &lt;p&gt;Очень бесит. Хочется либо так:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;font-style: bold;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;font-style: bold;
 font-style: bold, italic;
 font-style: italic, underline;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Либо так:&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;font-bold: true;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;font-bold: true;
 font-underline: true;
 font-italic: true;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Большего мне и не надо.&lt;/p&gt;</content><author><name>Дима Дорошев</name></author><category term="html" /><category term="css" /><summary type="html">В любом текстовом процессоре (Microsoft Word, Google Docs, LibreOffice) кнопки &quot;полужирный&quot;, &quot;курсив&quot; и &quot;подчеркнутый&quot; находятся рядом: ЖКП Десятилетиями в голове устаканивался паттерн о том, что это свойства одного порядка. Хочешь сделать полужирный курсив, нажимаешь две кнопки рядом: ЖКП Хочешь жирный и подчеркнутый: ЖКП Про подчеркнутый курсив не буду - это для особенных людей.</summary></entry></feed>
+&lt;p&gt;Большего мне и не надо.&lt;/p&gt;</content><author><name>Дима Дорошев</name></author><category term="Dev" /><category term="html" /><category term="css" /><summary type="html">В любом текстовом процессоре (Microsoft Word, Google Docs, LibreOffice) кнопки &quot;полужирный&quot;, &quot;курсив&quot; и &quot;подчеркнутый&quot; находятся рядом: ЖКП Десятилетиями в голове устаканивался паттерн о том, что это свойства одного порядка. Хочешь сделать полужирный курсив, нажимаешь две кнопки рядом: ЖКП Хочешь жирный и подчеркнутый: ЖКП Про подчеркнутый курсив не буду - это для особенных людей.</summary></entry></feed>

@@ -2,9 +2,9 @@
 <html lang="ru"><head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
 <title>Ж К П | Сайт Димы Дорошева</title>
-<meta name="generator" content="Jekyll v4.0.1" />
+<meta name="generator" content="Jekyll v4.2.0" />
 <meta property="og:title" content="Ж К П" />
 <meta name="author" content="Дима Дорошев" />
 <meta property="og:locale" content="ru" />
@@ -15,10 +15,12 @@
 <meta property="og:site_name" content="Сайт Димы Дорошева" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2020-05-11T16:32:10+03:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Ж К П" />
 <script type="application/ld+json">
-{"url":"https://doroshev.com/dev/b-i-u/","headline":"Ж К П","dateModified":"2020-05-11T16:32:10+03:00","datePublished":"2020-05-11T16:32:10+03:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://doroshev.com/dev/b-i-u/"},"author":{"@type":"Person","name":"Дима Дорошев"},"description":"В любом текстовом процессоре (Microsoft Word, Google Docs, LibreOffice) кнопки &quot;полужирный&quot;, &quot;курсив&quot; и &quot;подчеркнутый&quot; находятся рядом: ЖКП Десятилетиями в голове устаканивался паттерн о том, что это свойства одного порядка. Хочешь сделать полужирный курсив, нажимаешь две кнопки рядом: ЖКП Хочешь жирный и подчеркнутый: ЖКП Про подчеркнутый курсив не буду - это для особенных людей.","@type":"BlogPosting","@context":"https://schema.org"}</script>
+{"headline":"Ж К П","dateModified":"2020-05-11T16:32:10+03:00","datePublished":"2020-05-11T16:32:10+03:00","url":"https://doroshev.com/dev/b-i-u/","mainEntityOfPage":{"@type":"WebPage","@id":"https://doroshev.com/dev/b-i-u/"},"author":{"@type":"Person","name":"Дима Дорошев"},"description":"В любом текстовом процессоре (Microsoft Word, Google Docs, LibreOffice) кнопки &quot;полужирный&quot;, &quot;курсив&quot; и &quot;подчеркнутый&quot; находятся рядом: ЖКП Десятилетиями в голове устаканивался паттерн о том, что это свойства одного порядка. Хочешь сделать полужирный курсив, нажимаешь две кнопки рядом: ЖКП Хочешь жирный и подчеркнутый: ЖКП Про подчеркнутый курсив не буду - это для особенных людей.","@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
-<!-- Begin Jekyll Favicon tag v0.2.8 -->
+<!-- Begin Jekyll Favicon tag v0.2.9 -->
 <!-- Classic -->
 <link rel="shortcut icon" href="/favicon.ico">
 <link rel="icon" sizes="48x48 32x32 16x16" href="/favicon.ico">
@@ -82,7 +84,7 @@
 </div>
 <p>Про подчеркнутый курсив не буду - это для особенных людей.</p>
 
-<p>В <abbr>HTML</abbr>-тегах с этим тоже просто. Есть три тега: <code class="highlighter-rouge">b</code>, <code class="highlighter-rouge">i</code> и <code class="highlighter-rouge">u</code>. Можно вкладывать их друг в друга и получать желаемую комбинацию:</p>
+<p>В <abbr>HTML</abbr>-тегах с этим тоже просто. Есть три тега: <code class="language-plaintext highlighter-rouge">b</code>, <code class="language-plaintext highlighter-rouge">i</code> и <code class="language-plaintext highlighter-rouge">u</code>. Можно вкладывать их друг в друга и получать желаемую комбинацию:</p>
 
 
 <pre>
@@ -105,9 +107,9 @@
 <span class="p">}</span>
 </code></pre></div></div>
 
-<p>Про <code class="highlighter-rouge">font-weight</code> еще более-менее понятно, но правила применения двух остальных свойств я уже 13 лет не могу запомнить. Если нужно сделать подчеркнутый текст, а подсказок взять негде, я могу просто перебрать все варианты, пока не заработает:</p>
+<p>Про <code class="language-plaintext highlighter-rouge">font-weight</code> еще более-менее понятно, но правила применения двух остальных свойств я уже 13 лет не могу запомнить. Если нужно сделать подчеркнутый текст, а подсказок взять негде, я могу просто перебрать все варианты, пока не заработает:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>text-style: underline;
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>text-style: underline;
 font-style: underline;
 font-decoration: underline;
 text-underline: true;
@@ -115,13 +117,13 @@ text-underline: true;
 
 <p>Очень бесит. Хочется либо так:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>font-style: bold;
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>font-style: bold;
 font-style: bold, italic;
 font-style: italic, underline;
 </code></pre></div></div>
 
 <p>Либо так:</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>font-bold: true;
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>font-bold: true;
 font-underline: true;
 font-italic: true;
 </code></pre></div></div>
