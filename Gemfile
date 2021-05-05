@@ -17,7 +17,7 @@ gem "jgd", "~> 1.12"
 gem "rouge", "~> 3.26.0"
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.15.1"
-  gem "jekyll-seo-tag", "~> 2.6"
+  gem "jekyll-seo-tag", "~> 2.7.1"
   gem "jekyll-sitemap", "~> 1.4.0"
   gem 'jekyll-favicon', '~> 0.2.9'
 end
